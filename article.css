@@ -1,0 +1,22 @@
+article{
+    background-color:#FCF7E3 ;
+    border-radius: 20px;
+    color: #612406;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+article img{
+    margin-right: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    article{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+}

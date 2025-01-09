@@ -1,0 +1,36 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    text-align: center;
+    border-radius: 80px;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+div img{
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    justify-content: space-between;
+    line-height: 0.2;
+}
+
+h2 , p{
+    color: #652706;
+}
+h2{
+    font-weight: 500;
+}
+div button{
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgb(231, 201, 67);
+}

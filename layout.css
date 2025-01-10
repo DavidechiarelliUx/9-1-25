@@ -51,10 +51,13 @@ h1{
     border-radius: 80px;
     background-color: wheat;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 div img{
     width: 100%;
+    object-fit: cover;
+    height:300px;
 }
 
 .content{
@@ -126,7 +129,8 @@ article img{
         width: 70%;
     }
     nav ul li{
-        padding: 15px 30px;
+        width: 40%;
+        padding: 10px 0px;
     }
     .product{
         justify-content:center;
